@@ -45,7 +45,7 @@ Array.prototype.myFilter = function(cb){
        arr.push(this[i])
     }
   }
-  
+
   return arr
 }
 
@@ -70,7 +70,7 @@ Array.prototype.myFilter = function(cb, obj){
        arr.push(this[i])
     }
   }
-  
+
   return arr
 }
 
