@@ -64,7 +64,7 @@ testThis.call({name: 'qiqi'}, 'hello') // hello qiqi
 Array.prototype.myFilter = function(cb, obj){
   var arr = []
   for(var i=0,len=this.length; i<len; i++){
-    if(cb.call(obj, this[i])){
+    if(cb.call(obj, this[i], i, this)){
        arr.push(this[i])
     }
   }
