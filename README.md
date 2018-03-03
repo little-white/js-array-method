@@ -10,3 +10,10 @@
 * [filter](./filter/README.md)
 * [map](./map/README.md)
 
+# 测试
+
+```javascript
+npm i && npm test
+```
+
+使用[jest](https://facebook.github.io/jest/)来对代码进行单元测试
