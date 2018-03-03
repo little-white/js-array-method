@@ -1,13 +1,13 @@
 # map
 
 ```javascript
-[1,2,3].myMap(function(item){
+[1,2,3].map(function(item){
 	return {
 		name: item
 	}
 }) // [{name: 1},{name: 2},{name: 3}]
 
-[1,2,3].myMap(function(item){
+[1,2,3].map(function(item){
 	return item * 2
 }) // [2,4,6]
 ```
