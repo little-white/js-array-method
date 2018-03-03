@@ -21,9 +21,8 @@ let new_array = arr.myMap(function callback(currentValue, index, array) {
     // Return element for new_array 
 }[, thisArg]) // 语法
 
-
 for(var i=0, len=this.length; i<len; i++){
-  arr.push(cb.apply(obj, [this[i], i, this]))
+  arr.push(cb.apply(obj, [this[i], i, this])) // 也可以使用call：cb.call(obj, this[i], i, this)
 } // 核心实现
 ```
 
