@@ -1,6 +1,6 @@
 require('./myFilter')
 
-describe('myMap 用法', () => {
+describe('myFilter 用法', () => {
   let originArr = []
   beforeAll(() => {
     originArr = [1,2,3]
