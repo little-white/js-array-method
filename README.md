@@ -8,7 +8,13 @@
 # 列表
 
 * [filter](./filter/README.md)
+  * [使用方法及实现原理](./filter/README.md)
+  * 源码实现[myFilter.js](./filter/myFilter.js)
+  * 源码测试[myFilter.test.js](./filter/myFilter.test.js)
 * [map](./map/README.md)
+  - [使用方法及实现原理](./map/README.md)
+  - 源码实现[myMap.js](./map/myMap.js)
+  - 源码测试[myMap.test.js](./map/myMap.test.js)
 
 # 测试
 
