@@ -2,13 +2,13 @@
 
 ```javascript
 [1,2,3].map(function(item){
-	return {
-		name: item
-	}
+  return {
+    name: item
+  }
 }) // [{name: 1},{name: 2},{name: 3}]
 
 [1,2,3].map(function(item){
-	return item * 2
+  return item * 2
 }) // [2,4,6]
 ```
 
