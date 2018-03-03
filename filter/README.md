@@ -1,5 +1,3 @@
-![build-status](https://travis-ci.org/little-white/js-array-method.svg?branch=master)
-
 # filter
 
 ```javascript
@@ -15,7 +13,7 @@
 
 filter方法是返回一个新的数组，这个数组是通过满足回调函数中的条件的元素来得到的。
 
-因为它是挂在Array.prototype上，所以只有数组才可以有次方法。
+因为它是挂在Array.prototype上，所以只有数组才可以有此方法。
 
 ```javascript
 {name: 1}.filter(function(){}) // error
@@ -77,4 +75,5 @@ Array.prototype.myFilter = function(cb, obj){
 [1,2,3].myFilter(function(item){return item > this.value}, {value: 1}) // // [2,3]
 ```
 
-具体实例请查看[myFilter.js](./myFilter.js)
+具体实现请查看[myFilter.js](./myFilter.js)
+具体用法请查看[myFilter.test.js](./myFilter.test.js)
