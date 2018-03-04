@@ -15,6 +15,10 @@
   - [使用方法及实现原理](./map/README.md)
   - 源码实现[myMap.js](./map/myMap.js)
   - 源码测试[myMap.test.js](./map/myMap.test.js)
+* [reduce](./reduce/README.md)
+  - [使用方法及实现原理](./reduce/README.md)
+  - 源码实现[myReduce.js](./reduce/myReduce.js)
+  - 源码测试[myReduce.test.js](./reduce/myReduce.test.js)
 
 # 测试
 
