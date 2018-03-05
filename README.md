@@ -27,3 +27,16 @@ npm i && npm test
 ```
 
 使用[jest](https://facebook.github.io/jest/)来对代码进行单元测试
+
+# 脚本
+
+由于每次都要新建文件夹、文件操作，就写了个简单的脚本来实现
+
+```bash
+# 语法
+chmod +x init.sh
+./init.sh arguments // arguments 为新建文件的名字
+# 例如
+./init.sh map // 创建map文件夹、在map下创建myMap.js、myMap.test.js、README.MD文件
+```
+
