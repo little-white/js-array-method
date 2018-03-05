@@ -26,5 +26,5 @@ touch $directory/$name
 echo $name '文件已创建'
 touch $directory/$testName
 echo $testName '文件已创建'
-touch $name/'README.md'
+touch $directory/'README.md'
 echo 'README.md文件已创建'
