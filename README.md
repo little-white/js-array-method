@@ -19,6 +19,10 @@
   - [使用方法及实现原理](./reduce/README.md)
   - 源码实现[myReduce.js](./reduce/myReduce.js)
   - 源码测试[myReduce.test.js](./reduce/myReduce.test.js)
+* [every](./every/README.md)
+  - [使用方法及实现原理](./every/README.md)
+  - 源码实现[myReduce.js](./every/myEvery.js)
+  - 源码测试[myReduce.test.js](./every/myEvery.test.js)
 
 # 测试
 
@@ -39,4 +43,3 @@ chmod +x init.sh
 # 例如
 ./init.sh map // 创建map文件夹、在map下创建myMap.js、myMap.test.js、README.MD文件
 ```
-
