@@ -1,7 +1,7 @@
 require('./myEvery')
 describe('myEvery 用法', () => {
 
-  test('每个值都为true的话返回值为true', () => {
+  test('每个值都满足条件的话返回值为true', () => {
     var arr = [1, true, []]
     var res = arr.myEvery(function(item){
       return item
@@ -9,7 +9,7 @@ describe('myEvery 用法', () => {
     expect(res).toBe(true);
   });
 
-  test('都一个值为false的话返回为false', () => {
+  test('有一个值不满足条件的话返回为false', () => {
     var arr = [1, true, [], false]
     var res = arr.myEvery(function(item){
       return item

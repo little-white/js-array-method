@@ -14,7 +14,7 @@ every返回一个布尔值，这个值是根据数组中的每个元素是否满
 
 ### 实现原理
 
-判断数组的每个元素是否为true，有一个false返回false，否则返回true。
+判断数组的每个元素是否满足条件，只要有一个不满足则返回false，都满足返回true。
 
 ```javascript
 Array.prototype.myEvery=function(cb){
@@ -25,7 +25,7 @@ Array.prototype.myEvery=function(cb){
       break
     }
   }
-  
+
   return tag
 }
 ```

@@ -27,11 +27,11 @@ Array.prototype.mySome = function(cb){
       break
     }
   }
-  
+
   return tag
 }
 ```
 
 具体实现请查看[mySome.js](./mySome.js)
 
-具体用法请查看[mySome..test.js](./mySome..test.js)
+具体用法请查看[mySome.test.js](./mySome.test.js)
