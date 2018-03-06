@@ -23,6 +23,10 @@
   - [使用方法及实现原理](./every/README.md)
   - 源码实现[myReduce.js](./every/myEvery.js)
   - 源码测试[myReduce.test.js](./every/myEvery.test.js)
+* [some](./some/README.md)
+  - [使用方法及实现原理](./some/README.md)
+  - 源码实现[mySome.js](./some/mySome.js)
+  - 源码测试[mySome.test.js](./some/mySome.test.js)
 
 # 测试
 
